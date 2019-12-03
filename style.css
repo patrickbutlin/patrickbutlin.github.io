@@ -1,66 +1,75 @@
 
 <!DOCTYPE CSS>
 h1 {
-				
-			}
-			.h1div {
-				font-family: 'Lato', sans-serif;
-				font-size: 1.2em
-				margin-top: 10px;
-				margin-left: 25px;
-				letter-spacing: 2px;
-				color: #154360;
-			}
-			.h2div {
-				font-family: 'Lato', sans-serif;
-				font-size: 0.8em;
-				letter-spacing: 1px;
-			}
-			.menu {
-				display: flex;
-				flex-direction: row;
-				justify-content: space-between;
-				width: 400px;
-				margin-left: 25px;
-			}
-			.menu a {
-				text-decoration: none;
-				color: grey;
-			}
-			.menu a:hover {
-				text-decoration: underline;
-			}
-			.toprow {
-				display: flex;
-				flex-direction: column;
-				flex-wrap: wrap;
-				justify-content: space-between;
-				align-items: center;
-			}
-			.content {
-				display: flex;
-				flex-direction: row-reverse;
-				flex-wrap: wrap-reverse;
-				align-items: flex-end;
-				justify-content: center;
-			}
-			.maintext {
-				display: flex;
-				flex-direction: column;
-				max-width: 550px;
-				margin-left: 25px;
-			}
-			.image {
-				padding-top: 15px;
-				margin-left: 25px;
-			}
-			p {
-				font-family: 'Lato', sans-serif;
-				color: #212121;
-			}
-			a {
-				color: #B03A2E;
-			}
-			div {
-				border: 0px solid grey;
-			}
+	
+}
+p {
+	font-family: 'Lato', sans-serif;
+	color: #212121;
+}
+a {
+	color: #5C9649;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+div {
+	border: 0px solid grey;
+}
+.h1div {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.2em
+	margin-top: 10px;
+	margin-left: 25px;
+	letter-spacing: 2px;
+	color: #154360;
+}
+.h2div {
+	font-family: 'Lato', sans-serif;
+	font-size: 0.8em;
+	letter-spacing: 1px;
+}
+.menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 400px;
+	margin-left: 25px;
+}
+.menu a {
+	text-decoration: none;
+	color: #5C9649;
+	padding: 10px 20px;
+}
+.menu a:hover {
+	background-color: #C2E59C;
+	/*color: #E2EBF0;*/
+}
+.this-page a {
+	background-color: #E2EBF0;
+}
+.toprow {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.content {
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap-reverse;
+	align-items: flex-end;
+	justify-content: center;
+}
+.maintext {
+	display: flex;
+	flex-direction: column;
+	max-width: 550px;
+	margin-left: 25px;
+}
+.image {
+	padding-top: 15px;
+	margin-left: 25px;
+}
