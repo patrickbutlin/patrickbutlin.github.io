@@ -8,6 +8,11 @@ p {
 	color: #212121;
 	margin-bottom: 5px
 }
+p.p2 {
+	font-family: 'Lato', sans-serif;
+	color: #212121;
+	margin-bottom: 10px
+}
 a {
 	color: #5C9649;
 	text-decoration: none;
