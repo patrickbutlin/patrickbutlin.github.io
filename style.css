@@ -75,6 +75,10 @@ div {
 	max-width: 550px;
 	margin-left: 25px;
 }
+.maintext p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
 .image {
 	padding-top: 15px;
 	margin-left: 25px;
